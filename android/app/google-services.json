@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "138906561578",
+    "project_id": "slide-act-d5f33",
+    "storage_bucket": "slide-act-d5f33.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:138906561578:android:d69c97d133fa2032a6a753",
+        "android_client_info": {
+          "package_name": "com.example.slide_act"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "138906561578-iojv7i76gmrhlscnvk23pqlafbe6fv0m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCpCpqCcFf9TFcoJ9IxWIk0Rc4Ik-6wtkw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "138906561578-iojv7i76gmrhlscnvk23pqlafbe6fv0m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
