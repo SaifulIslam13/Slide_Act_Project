@@ -6,7 +6,8 @@ import 'package:google_fonts/google_fonts.dart';
 import 'package:slide_act/pages/sign_up.dart';
 
 class SignInPage extends StatefulWidget {
-  const SignInPage({Key? key}) : super(key: key);
+  final VoidCallback showSignupPage;
+  const SignInPage({Key? key, required this.showSignupPage}) : super(key: key);
 
   @override
   State<SignInPage> createState() => _SignInPageState();
@@ -173,10 +174,7 @@ class _SignInPageState extends State<SignInPage> {
                           ),
                         ),
                         GestureDetector(
-                          onTap: () {
-                            Navigator.of(context).push(MaterialPageRoute(
-                                builder: (context) => SignUpPage()));
-                          },
+                          onTap: widget.showSignupPage,
                           child: Text(
                             'Sign Up',
                             style: TextStyle(
